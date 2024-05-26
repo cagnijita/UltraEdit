@@ -1,13 +1,9 @@
 
-        /* @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Poppins&display=swap'); */
         * {
             margin: 0;
             padding: 0;
         }
 
-        /* header{
-            height:83px ;
-        } */
         nav {
             height: 100px;
             display: flex;
