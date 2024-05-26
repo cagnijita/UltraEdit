@@ -1,0 +1,207 @@
+
+        /* @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Poppins&display=swap'); */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* header{
+            height:83px ;
+        } */
+        nav {
+            height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        ul {
+            display: flex;
+            gap: 34px;
+            align-items: center;
+        }
+
+        ul li {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .logo img,
+        li {
+            cursor: pointer;
+        }
+        
+        ul li span {
+            padding: 0 5px;
+        }
+        
+        .logo img {
+            height: 58px;
+            width: 175px;
+        }
+        .firstline{
+        display: flex;
+        flex-direction: column;
+        gap: 41px;
+        font-size: 48px;
+        justify-content: center;
+        align-items: center;
+        /* padding: 40px; */
+        margin: 70px auto;
+        padding: 0 400px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        
+    }
+    .firstline p {
+        font-size: 0.5em;
+        /* padding: 0 210px; */
+        max-width: 48vw;
+        text-align: center;
+    }
+    .firstline img{
+        /* padding: 0 23px; */
+        margin:0 23px;
+    }
+    
+    .firstline button{
+            padding: 16px;
+            background-color: #00b6d1;
+            color: white;
+            font-family: "Segoe UI";
+            text-transform: uppercase;
+            font-weight: 700;
+            border-radius: 5px;
+            border-style: none;
+            cursor: pointer;
+        }
+    .firstline .secondline{
+        align-self: start;
+        margin: 9px 41px;
+        margin-bottom: 0px;
+        padding: 0 21px;
+    }
+    .secondline{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    width: 48vw;
+    gap: 10px;
+}
+.secondline img{
+    margin: 3px 3px 7px 0;
+       /* padding: 0 1px; */
+    }
+    .secondline span{
+        font-size:24px ;
+    }
+    .secondline small{
+        font-size: 14px;
+        
+    }
+    
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        /* grid-template-rows: repeat(4,1fr); */
+        max-width: 52vw;
+        /* height: auto; */
+        /* border: 2px solid black; */
+        margin: 0 auto;
+        place-content: center;
+        gap: 30px;
+        /* padding: 5px; */
+    }
+    .item{
+        display: grid;
+        grid-template-rows: 1fr 1.3fr 1.6fr;
+        padding:15px 10px 20px 10px;
+        border-radius: 3px;
+        /* width: 280px; */
+        height: 110px;
+        justify-items: center;
+        align-items: center;
+        background-color: #bdbdbd21;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        
+    }
+    .skyblue{
+        background-color: #00b6d1;
+    }
+    .green{
+        background-color: #5cb85c;
+    }
+    main a{
+        text-decoration: none;
+        
+    }
+    .item grid-2{
+        padding-top:10px ;
+
+    }
+.grid-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    
+}
+.grid-2 a{
+        /* display: block; */
+        text-decoration: none;
+        color: white;
+        font-weight: 600;
+        padding: 8px 10px;
+        font-size: 12px;
+        border-radius: 5px;
+        /* min-width: 80px; */
+        /* width: 100px; */
+        height: 20px;
+        align-self: center;
+        width: 97px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 21px 4px;
+    }
+    .item span{
+        font-weight: 700;
+        font-size: 1.3em;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding-bottom:10px;
+    }
+    .item small{
+        align-self:baseline;
+    }
+    .item:nth-child(1){
+        .grid-2{
+            margin-top: 16px;
+        }
+    }
+    
+    
+    @media only screen and (max-width:900px){
+        .grid{
+            display: grid;
+            grid-template-columns: 1fr;
+            /* background-color: rebeccapurple; */
+            align-items: center;
+            /* gap: 8px; */
+            
+    }
+    .item{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-columns: 1fr;
+        padding:10px;
+        border-radius: 3px;
+        /* width: 280px; */
+        /* height: 110psx; */
+        justify-items: center;
+        align-items: center;
+        background-color: #bdbdbd21;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    
+    
+    }
